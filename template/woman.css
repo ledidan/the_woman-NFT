@@ -637,22 +637,24 @@ details[open] summary~* {
 summary {
     font-size: 1.25rem;
     font-weight: 600;
-    background-image: linear-gradient(90deg, #77a1d3 20%, #79cbca 40%, #e684ae 70%);
+    background-image: linear-gradient(to right, rgb(245 95 141) 0, rgb(248 174 86) 51%, rgb(245 95 141) 100%);
     color: #FFF;
     padding: 1rem;
     margin-bottom: 1rem;
     outline: none;
-
     border-radius: 0.25rem;
     text-align: left;
     cursor: pointer;
     position: relative;
+    transition: all .5s;
 }
+
 
 details>summary::after {
     position: absolute;
     content: "+";
     right: 20px;
+    transition: all 1s;
 }
 
 details[open]>summary::after {
@@ -663,4 +665,9 @@ details[open]>summary::after {
 
 details>summary::-webkit-details-marker {
     display: none;
+}
+
+.faq__content {
+    color: white;
+    font-size: 20px;
 }
