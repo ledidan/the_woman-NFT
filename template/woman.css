@@ -47,6 +47,7 @@ body {
     --wp--preset--font-size--medium: 20px;
     --wp--preset--font-size--large: 36px;
     --wp--preset--font-size--x-large: 42px;
+    background-color: rgb(9, 14, 56) !important;
 }
 
 .has-black-color {
@@ -334,8 +335,19 @@ body {
 
 /* Test */
 
+/* CONTACT HERO BUTTON */
+.rev-btn-hero {
+    background: none;
+    border-color: transparent !important;
+    border: 2px solid #e684ae !important;
+    background-size: 200%;
+    transition: all 0.5s;
+}
 
-
+.rev-btn-hero:hover {
+    background-position: right center;
+    box-shadow: inset 0 0 0 2em #e684ae !important;
+}
 
 .cd-container {
     width: 90%;
@@ -670,4 +682,117 @@ details>summary::-webkit-details-marker {
 .faq__content {
     color: white;
     font-size: 20px;
+}
+
+
+.join-us-btn {
+    margin-top: 50px;
+}
+
+a.join-us--btn {
+    display: inline;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-size: 200%;
+    border: 2px solid #e684ae !important;
+    transition: all 0.5s;
+    margin-left: 20px;
+    background: none;
+}
+
+a.join-us--btn:hover {
+    background-position: right center;
+    box-shadow: inset 0 0 0 2em #e684ae;
+}
+
+.roadmap-main-container {
+    /* background: rgb(9, 14, 56); */
+}
+
+
+/* OUR MISSION */
+.our-mission-section {
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 512px) {
+    #our--mission_text {
+        font-size: 15px;
+        padding: 0 30%;
+    }
+}
+
+.neon-font-style {
+    text-shadow: 0 0 5px #e684ae, 0 0 15px #e684ae, 0 0 20px #e684ae, 0 0 40px #e684ae, 0 0 60px #e684ae, 0 0 10px #e684ae, 0 0 98px #e684ae;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 2s infinite;
+}
+
+@-webkit-keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+            0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+        text-shadow: 0 0 5px #79cbca, 0 0 15px #79cbca, 0 0 20px #79cbca, 0 0 40px #79cbca, 0 0 60px #79cbca, 0 0 10px #79cbca, 0 0 98px #79cbca;
+        color: #79cbca;
+    }
+}
+
+@keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+
+        text-shadow: 0 0 5px #e684ae, 0 0 15px #e684ae, 0 0 20px #e684ae, 0 0 40px #e684ae, 0 0 60px #e684ae, 0 0 10px #e684ae, 0 0 98px #e684ae;
+        color: white;
+    }
+}
+
+.our-mission-description {
+    border: 2px solid white;
+    padding: 80px;
+    transition: all ease-in-out .1;
+    border-radius: 15px;
+}
+
+.our-mission-description:hover {
+    border: none;
+    border-top: 2px solid #79cbca;
+    border-left: 2px solid #79cbca;
+    background-color: rgba(19, 207, 173, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
 }

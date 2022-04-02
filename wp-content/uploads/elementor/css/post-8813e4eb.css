@@ -415,8 +415,7 @@
 
 .elementor-8813 .elementor-element.elementor-element-e3e6e40:not(.elementor-motion-effects-element-type-background),
 .elementor-8813 .elementor-element.elementor-element-e3e6e40>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #000000;
-    background-image: url("../../2022/02/womanoid-project-info-background-e1645591427990.png");
+    /* background-color: rgb(9, 14, 56); */
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2781,8 +2780,10 @@ body.rtl .elementor-8813 .elementor-element.elementor-element-5104917 {
 
 .elementor-8813 .elementor-element.elementor-element-fd7bf1c:not(.elementor-motion-effects-element-type-background),
 .elementor-8813 .elementor-element.elementor-element-fd7bf1c>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-image: url("../../2022/02/background-text-womanoid.png");
+    background-image: url("/wp-content/uploads/2022/02/fn.png");
     background-position: center center;
+    object-fit: cover;
+
 }
 
 .elementor-8813 .elementor-element.elementor-element-fd7bf1c {
