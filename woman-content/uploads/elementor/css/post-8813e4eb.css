@@ -2787,9 +2787,10 @@ body.rtl .elementor-8813 .elementor-element.elementor-element-5104917 {
 }
 
 .elementor-8813 .elementor-element.elementor-element-fd7bf1c {
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
+    border: 1px solid #79cbca;
+    border-width: 2px 2px 2px 2px;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 0px 0px 0px 0px;
@@ -3126,7 +3127,7 @@ body.rtl .elementor-8813 .elementor-element.elementor-element-7407f2f {
 
 .elementor-8813 .elementor-element.elementor-element-41622fd.ob-is-breaking-bad>.elementor-container>.elementor-row,
 .elementor-8813 .elementor-element.elementor-element-41622fd.ob-is-breaking-bad>.elementor-container {
-    justify-content: flex-start !important;
+    justify-content: space-evenly !important;
     flex-direction: row;
 }
 

@@ -320,7 +320,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 9px;
-    background-image: url("/woman-content/uploads/2022/02/theblackwomanapp.png");
+    background-image: url("/woman-content/uploads/2022/02/test-appmobile.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -820,8 +820,8 @@ a.join-us--btn:hover {
 
 .cd-timeline-content:hover {
     border: none;
-    border-top: 3px solid #79cbca;
-    border-left: 3px solid #79cbca;
+    /* border-top: 3px solid #79cbca; */
+    /* border-left: 3px solid #79cbca; */
     background-color: rgba(19, 207, 173, 0.1);
     border-radius: 10px;
     backdrop-filter: blur(5px);
@@ -829,12 +829,13 @@ a.join-us--btn:hover {
     outline: 0;
 }
 
+
 .img-clip-path {
     clip-path: circle(50% at 50% 50%);
 }
 
 .meet-team-desc {
-    padding: 10%;
+    padding: 5% 10%;
 }
 
 .our-team-desc {
@@ -872,12 +873,19 @@ a.join-us--btn:hover {
     padding-right: 20%;
 }
 
+.faq-question {
+    z-index: 100;
+}
+
+
+
 .our-footer-community {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
-    background: #111;
+    background: #090f38;
     background: linear-gradient(#0c141f 40%, #cf33d9 41%, #0c141f 60%);
+    z-index: 1;
 }
 
 .wrapper {
@@ -885,11 +893,12 @@ a.join-us--btn:hover {
     justify-content: center;
     align-items: center;
     height: 100%;
+
 }
 
 .inner-wrapper {
     width: 100%;
-    height: 100%;
+    height: 50%;
     position: absolute;
     margin: 0 auto;
     perspective: 180px;
@@ -902,7 +911,7 @@ a.join-us--btn:hover {
     left: -120%;
     height: 100%;
     bottom: -30%;
-    background-image: -webkit-linear-gradient(top, #CF33D9 2px, transparent 5px), -webkit-linear-gradient(left, #CF33D9 2px, transparent 5px);
+    background-image: -webkit-linear-gradient(top, #e684ae 2px, transparent 5px), -webkit-linear-gradient(left, #e684ae 2px, transparent 5px);
     background-size: 50px 50px, 80px 80px;
     background-position: -1px -1px, -1px -1px;
     transform: rotateX(85deg);
@@ -961,15 +970,15 @@ a.join-us--btn:hover {
 
 @keyframes glow {
     0% {
-        filter: drop-shadow(0 0 6px #CF33D9) drop-shadow(0 0 6px #CF33D9);
+        filter: drop-shadow(0 0 6px #e684ae) drop-shadow(0 0 6px #e684ae);
     }
 
     50% {
-        filter: drop-shadow(0 0 1px #CF33D9) drop-shadow(0 0 1px #CF33D9);
+        filter: drop-shadow(0 0 1px #e684ae) drop-shadow(0 0 1px #e684ae);
     }
 
     100% {
-        filter: drop-shadow(0 0 6px #CF33D9) drop-shadow(0 0 6px #CF33D9);
+        filter: drop-shadow(0 0 6px #e684ae) drop-shadow(0 0 6px #e684ae);
     }
 }
 
