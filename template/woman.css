@@ -286,11 +286,11 @@ body {
 }
 
 .content-left {
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 .content-right {
-    padding-left: 5%;
+    padding-left: 10%;
     margin-top: 5%;
 }
 
@@ -302,9 +302,7 @@ body {
     position: relative;
 }
 
-.content-right #card {
-    margin-left: 100px;
-}
+
 
 #frame {
     width: 300px;
@@ -312,26 +310,13 @@ body {
     transition: transform 200ms;
 }
 
-#frame:hover {
-    transform: scale3d(1.05, 1.05, 1.05);
-}
-
 #card {
-    width: 100%;
+    width: 80%;
     height: 100%;
-    border-radius: 9px;
-    background-image: url("/woman-content/uploads/2022/02/theblackwomanapp.png");
+    background-image: url("/woman-content/uploads/2022/02/test-appmobile.png");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-    position: relative;
-}
 
-#light {
-    width: 100%;
-    height: 100%;
-    border-radius: 9px;
 }
 
 /* css for my tutorial channel link */
@@ -360,17 +345,41 @@ body {
 /* Test */
 
 /* CONTACT HERO BUTTON */
+
 .rev-btn-hero {
     background: none;
     border-color: transparent !important;
-    border: 2px solid #e684ae !important;
+    border: 2px solid #ff9aff !important;
+    box-shadow: 0 0 5px #ff9aff, 0 0 5px #ff9aff inset;
     background-size: 200%;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
-.rev-btn-hero:hover {
-    background-position: right center;
-    box-shadow: inset 0 0 0 2em #e684ae !important;
+.btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: #ff9aff;
+    box-shadow:
+        0 0 20px #ff9aff;
+    transition: all 0.3s ease;
+}
+
+.btn-15:hover {
+    color: #fff;
+}
+
+.btn-15:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.btn-15:active {
+    top: 2px;
 }
 
 .cd-container {
@@ -584,72 +593,6 @@ li {
     border-right: 7px solid #79cbca;
 }
 
-@media only screen and (min-width: 768px) {
-    .cd-timeline-content h2 {
-        font-size: 20px;
-        font-size: 1.25rem;
-    }
-
-    .cd-timeline-content p {
-        font-size: 16px;
-        font-size: 1rem;
-    }
-
-    .cd-timeline-content .cd-read-more,
-    .cd-timeline-content .cd-date {
-        font-size: 14px;
-        font-size: 0.875rem;
-    }
-}
-
-@media only screen and (min-width: 1170px) {
-    .cd-timeline-content {
-        color: white;
-        margin-left: 0;
-        padding: 1.6em;
-        width: 36%;
-        margin: 0 5%
-    }
-
-    .cd-timeline-content::before {
-        top: 24px;
-        left: 100%;
-        border-color: transparent;
-        border-left-color: #79cbca;
-    }
-
-    .cd-timeline-content .cd-date {
-        position: absolute;
-        width: 100%;
-        left: 122%;
-        top: 6px;
-        font-size: 16px;
-        font-size: 1rem;
-    }
-
-    .cd-timeline-block:nth-child(even) .cd-timeline-content {
-        float: right;
-    }
-
-    .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
-        top: 24px;
-        left: auto;
-        right: 100%;
-        border-color: transparent;
-        border-right-color: #79cbca;
-    }
-
-    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
-        float: right;
-    }
-
-    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
-        left: auto;
-        right: 122%;
-        text-align: right;
-    }
-}
-
 .cd-timeline-content ol {
     list-style-type: none;
 }
@@ -820,8 +763,8 @@ a.join-us--btn:hover {
 
 .cd-timeline-content:hover {
     border: none;
-    border-top: 3px solid #79cbca;
-    border-left: 3px solid #79cbca;
+    /* border-top: 3px solid #79cbca; */
+    /* border-left: 3px solid #79cbca; */
     background-color: rgba(19, 207, 173, 0.1);
     border-radius: 10px;
     backdrop-filter: blur(5px);
@@ -829,12 +772,13 @@ a.join-us--btn:hover {
     outline: 0;
 }
 
+
 .img-clip-path {
     clip-path: circle(50% at 50% 50%);
 }
 
 .meet-team-desc {
-    padding: 10%;
+    padding: 5% 10%;
 }
 
 .our-team-desc {
@@ -872,12 +816,19 @@ a.join-us--btn:hover {
     padding-right: 20%;
 }
 
+.faq-question {
+    z-index: 100;
+}
+
+
+
 .our-footer-community {
     text-align: center;
     font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
-    background: #111;
+    background: #090f38;
     background: linear-gradient(#0c141f 40%, #cf33d9 41%, #0c141f 60%);
+    z-index: 1;
 }
 
 .wrapper {
@@ -889,7 +840,7 @@ a.join-us--btn:hover {
 
 .inner-wrapper {
     width: 100%;
-    height: 100%;
+    height: 50%;
     position: absolute;
     margin: 0 auto;
     perspective: 180px;
@@ -902,7 +853,7 @@ a.join-us--btn:hover {
     left: -120%;
     height: 100%;
     bottom: -30%;
-    background-image: -webkit-linear-gradient(top, #CF33D9 2px, transparent 5px), -webkit-linear-gradient(left, #CF33D9 2px, transparent 5px);
+    background-image: -webkit-linear-gradient(top, #e684ae 2px, transparent 5px), -webkit-linear-gradient(left, #e684ae 2px, transparent 5px);
     background-size: 50px 50px, 80px 80px;
     background-position: -1px -1px, -1px -1px;
     transform: rotateX(85deg);
@@ -912,6 +863,9 @@ a.join-us--btn:hover {
 .nrw {
     z-index: 50;
     font-family: OutRun;
+    position: absolute;
+    right: 223px;
+    bottom: 128px;
 }
 
 .triangle {
@@ -929,16 +883,16 @@ a.join-us--btn:hover {
 }
 
 .new {
-    font-size: 5.2em;
+    font-size: 6em;
     text-transform: uppercase;
-    font-family: "Open Sans";
+    font-family: "Kanit";
     color: transparent;
     position: relative;
     display: block;
     letter-spacing: -15px;
     transform: rotate(-10deg) skew(-20deg);
     margin-left: -100px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .new>.letter {
@@ -961,20 +915,20 @@ a.join-us--btn:hover {
 
 @keyframes glow {
     0% {
-        filter: drop-shadow(0 0 6px #CF33D9) drop-shadow(0 0 6px #CF33D9);
+        filter: drop-shadow(0 0 6px #e684ae) drop-shadow(0 0 6px #e684ae);
     }
 
     50% {
-        filter: drop-shadow(0 0 1px #CF33D9) drop-shadow(0 0 1px #CF33D9);
+        filter: drop-shadow(0 0 1px #e684ae) drop-shadow(0 0 1px #e684ae);
     }
 
     100% {
-        filter: drop-shadow(0 0 6px #CF33D9) drop-shadow(0 0 6px #CF33D9);
+        filter: drop-shadow(0 0 6px #e684ae) drop-shadow(0 0 6px #e684ae);
     }
 }
 
 .retro {
-    font-size: 5.5em;
+    font-size: 6em;
     font-weight: 800;
     display: block;
     text-transform: uppercase;
@@ -1001,11 +955,100 @@ a.join-us--btn:hover {
     position: relative;
     z-index: 100;
     font-family: "OutRun", "Helvetica", sans-serif;
-    font-size: 3.8em;
+    font-size: 4em;
     color: #FA26F7;
     text-transform: uppercase;
     letter-spacing: -10px;
     transform: rotate(-3deg) skew(-3deg);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive All Screen */
+
+/* 1024 */
+@media only screen and (max-width: 1024px) {
+    .our-mission-section {
+        margin-top: 0%;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .cd-timeline-content h2 {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    .cd-timeline-content p {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .cd-timeline-content .cd-read-more,
+    .cd-timeline-content .cd-date {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    .cd-timeline-content {
+        color: white;
+        margin-left: 0;
+        padding: 1.6em;
+        width: 36%;
+        margin: 0 5%
+    }
+
+    .cd-timeline-content::before {
+        top: 24px;
+        left: 100%;
+        border-color: transparent;
+        border-left-color: #79cbca;
+    }
+
+    .cd-timeline-content .cd-date {
+        position: absolute;
+        width: 100%;
+        left: 122%;
+        top: 6px;
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .cd-timeline-block:nth-child(even) .cd-timeline-content {
+        float: right;
+    }
+
+    .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+        top: 24px;
+        left: auto;
+        right: 100%;
+        border-color: transparent;
+        border-right-color: #79cbca;
+    }
+
+    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
+        float: right;
+    }
+
+    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+        left: auto;
+        right: 122%;
+        text-align: right;
+    }
 }
