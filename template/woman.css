@@ -286,11 +286,11 @@ body {
 }
 
 .content-left {
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 .content-right {
-    padding-left: 5%;
+    padding-left: 10%;
     margin-top: 5%;
 }
 
@@ -302,9 +302,7 @@ body {
     position: relative;
 }
 
-.content-right #card {
-    margin-left: 100px;
-}
+
 
 #frame {
     width: 300px;
@@ -312,26 +310,13 @@ body {
     transition: transform 200ms;
 }
 
-#frame:hover {
-    transform: scale3d(1.05, 1.05, 1.05);
-}
-
 #card {
-    width: 100%;
+    width: 80%;
     height: 100%;
-    border-radius: 9px;
     background-image: url("/woman-content/uploads/2022/02/test-appmobile.png");
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-    position: relative;
-}
 
-#light {
-    width: 100%;
-    height: 100%;
-    border-radius: 9px;
 }
 
 /* css for my tutorial channel link */
@@ -360,17 +345,41 @@ body {
 /* Test */
 
 /* CONTACT HERO BUTTON */
+
 .rev-btn-hero {
     background: none;
     border-color: transparent !important;
-    border: 2px solid #e684ae !important;
+    border: 2px solid #ff9aff !important;
+    box-shadow: 0 0 5px #ff9aff, 0 0 5px #ff9aff inset;
     background-size: 200%;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
-.rev-btn-hero:hover {
-    background-position: right center;
-    box-shadow: inset 0 0 0 2em #e684ae !important;
+.btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: #ff9aff;
+    box-shadow:
+        0 0 20px #ff9aff;
+    transition: all 0.3s ease;
+}
+
+.btn-15:hover {
+    color: #fff;
+}
+
+.btn-15:hover:after {
+    left: 0;
+    width: 100%;
+}
+
+.btn-15:active {
+    top: 2px;
 }
 
 .cd-container {
@@ -582,72 +591,6 @@ li {
     width: 0;
     border: 7px solid transparent;
     border-right: 7px solid #79cbca;
-}
-
-@media only screen and (min-width: 768px) {
-    .cd-timeline-content h2 {
-        font-size: 20px;
-        font-size: 1.25rem;
-    }
-
-    .cd-timeline-content p {
-        font-size: 16px;
-        font-size: 1rem;
-    }
-
-    .cd-timeline-content .cd-read-more,
-    .cd-timeline-content .cd-date {
-        font-size: 14px;
-        font-size: 0.875rem;
-    }
-}
-
-@media only screen and (min-width: 1170px) {
-    .cd-timeline-content {
-        color: white;
-        margin-left: 0;
-        padding: 1.6em;
-        width: 36%;
-        margin: 0 5%
-    }
-
-    .cd-timeline-content::before {
-        top: 24px;
-        left: 100%;
-        border-color: transparent;
-        border-left-color: #79cbca;
-    }
-
-    .cd-timeline-content .cd-date {
-        position: absolute;
-        width: 100%;
-        left: 122%;
-        top: 6px;
-        font-size: 16px;
-        font-size: 1rem;
-    }
-
-    .cd-timeline-block:nth-child(even) .cd-timeline-content {
-        float: right;
-    }
-
-    .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
-        top: 24px;
-        left: auto;
-        right: 100%;
-        border-color: transparent;
-        border-right-color: #79cbca;
-    }
-
-    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
-        float: right;
-    }
-
-    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
-        left: auto;
-        right: 122%;
-        text-align: right;
-    }
 }
 
 .cd-timeline-content ol {
@@ -893,7 +836,6 @@ a.join-us--btn:hover {
     justify-content: center;
     align-items: center;
     height: 100%;
-
 }
 
 .inner-wrapper {
@@ -921,6 +863,9 @@ a.join-us--btn:hover {
 .nrw {
     z-index: 50;
     font-family: OutRun;
+    position: absolute;
+    right: 223px;
+    bottom: 128px;
 }
 
 .triangle {
@@ -938,16 +883,16 @@ a.join-us--btn:hover {
 }
 
 .new {
-    font-size: 5.2em;
+    font-size: 6em;
     text-transform: uppercase;
-    font-family: "Open Sans";
+    font-family: "Kanit";
     color: transparent;
     position: relative;
     display: block;
     letter-spacing: -15px;
     transform: rotate(-10deg) skew(-20deg);
     margin-left: -100px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .new>.letter {
@@ -983,7 +928,7 @@ a.join-us--btn:hover {
 }
 
 .retro {
-    font-size: 5.5em;
+    font-size: 6em;
     font-weight: 800;
     display: block;
     text-transform: uppercase;
@@ -1010,11 +955,100 @@ a.join-us--btn:hover {
     position: relative;
     z-index: 100;
     font-family: "OutRun", "Helvetica", sans-serif;
-    font-size: 3.8em;
+    font-size: 4em;
     color: #FA26F7;
     text-transform: uppercase;
     letter-spacing: -10px;
     transform: rotate(-3deg) skew(-3deg);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive All Screen */
+
+/* 1024 */
+@media only screen and (max-width: 1024px) {
+    .our-mission-section {
+        margin-top: 0%;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .cd-timeline-content h2 {
+        font-size: 20px;
+        font-size: 1.25rem;
+    }
+
+    .cd-timeline-content p {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .cd-timeline-content .cd-read-more,
+    .cd-timeline-content .cd-date {
+        font-size: 14px;
+        font-size: 0.875rem;
+    }
+}
+
+@media only screen and (min-width: 1170px) {
+    .cd-timeline-content {
+        color: white;
+        margin-left: 0;
+        padding: 1.6em;
+        width: 36%;
+        margin: 0 5%
+    }
+
+    .cd-timeline-content::before {
+        top: 24px;
+        left: 100%;
+        border-color: transparent;
+        border-left-color: #79cbca;
+    }
+
+    .cd-timeline-content .cd-date {
+        position: absolute;
+        width: 100%;
+        left: 122%;
+        top: 6px;
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .cd-timeline-block:nth-child(even) .cd-timeline-content {
+        float: right;
+    }
+
+    .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+        top: 24px;
+        left: auto;
+        right: 100%;
+        border-color: transparent;
+        border-right-color: #79cbca;
+    }
+
+    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
+        float: right;
+    }
+
+    .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+        left: auto;
+        right: 122%;
+        text-align: right;
+    }
 }
