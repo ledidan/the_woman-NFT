@@ -638,7 +638,7 @@ ul.stage__list-sub li {
     display: block;
     padding: 15px;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -672,7 +672,7 @@ a.join-us--btn {
     display: inline;
     padding: 15px 60px;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: 2px;
@@ -692,10 +692,12 @@ a.join-us--btn:hover {
 
 
 /* OUR MISSION */
-.our-mission-section {
+/* .our-mission-section {
+    margin: 3% 0 ;
+} */
+.margin-top-mission {
     margin-top: 5%;
 }
-
 @media only screen and (max-width: 512px) {
     #our--mission_text {
         font-size: 15px;
@@ -744,8 +746,6 @@ a.join-us--btn:hover {
 
 .cd-timeline-content:hover {
     border: none;
-    /* border-top: 3px solid #79cbca; */
-    /* border-left: 3px solid #79cbca; */
     background-color: rgba(19, 207, 173, 0.1);
     border-radius: 10px;
     backdrop-filter: blur(5px);
@@ -756,35 +756,34 @@ a.join-us--btn:hover {
 
 .img-clip-path {
     clip-path: circle(50% at 50% 50%);
+    /* border-radius: 10% !important; */
 }
 
 .meet-team-desc {
-    padding: 5% 10%;
+    padding: 0% 10%;
 }
 
 .our-team-desc {
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 20px;
     color: #FFF;
-    padding: 1rem;
     text-align: left;
-    outline: 1px solid #79cbca;
-    border-radius: 10px;
 }
 
 .founder-card-story {
     width: 90%;
-    margin-top: 50px;
 }
 
 .card-inner {
     display: inline-block;
+    margin-left: 4% !important;
 }
 
 .founder-main-card,
 .founder-content-card {
     float: left;
     width: 50%;
+    padding: 4% 0%;
 }
 
 .card-body {
@@ -792,7 +791,7 @@ a.join-us--btn:hover {
 }
 
 .card-inner {
-    margin-top: 50px;
+    margin-top: 4% !important;
 }
 
 .card-body .vip-m-title {
