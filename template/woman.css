@@ -357,7 +357,7 @@ body {
 .rev-btn-hero {
     background: none;
     border-color: transparent !important;
-    border: 2px solid #ff9aff !important;
+    /* border: 2px solid #ff9aff !important; */
     box-shadow: 0 0 5px #ff9aff, 0 0 5px #ff9aff inset;
     background-size: 200%;
     transition: all 0.3s;
@@ -710,12 +710,17 @@ a.join-us--btn:hover {
     text-shadow: 0 0 5px #e684ae, 0 0 15px #e684ae, 0 0 20px #e684ae, 0 0 40px #e684ae, 0 0 60px #e684ae, 0 0 10px #e684ae, 0 0 98px #e684ae;
     text-align: center;
 }
+.neon-font-style-stage {
+    text-shadow: 0 0 5px #e684ae, 0 0 15px #e684ae, 0 0 20px #e684ae, 0 0 40px #e684ae, 0 0 60px #e684ae, 0 0 10px #e684ae, 0 0 98px #e684ae;
+}
 
 .our-mission-description {
     border: 2px solid white;
     padding: 5px 40px;
     transition: all ease-in-out .1;
     border-radius: 15px;
+    max-width: 1040px;
+    margin: 0;
 }
 
 .our-mission-description:hover {
@@ -773,6 +778,7 @@ a.join-us--btn:hover {
 
 .founder-card-story {
     width: 90%;
+    padding-top: 5%;
 }
 
 .card-inner {
@@ -787,13 +793,17 @@ a.join-us--btn:hover {
     padding: 4% 2%;
 }
 
+.elementor-social-icon-twitter {
+    /* background-color: #fff !important; */
+}
+
 /* .card-body {
     padding-bottom: 20px;
 } */
 
-/* .card-inner {
+.card-inner {
     margin-top: 4% !important;
-} */
+}
 
 .card-body .vip-m-title {
     font-size: 20px !important;
@@ -902,7 +912,7 @@ a.join-us--btn:hover {
 }
 
 /* 1024 */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 971px) {
     .section-title-mission {
         font-size: 55px !important;
     }
@@ -958,6 +968,9 @@ a.join-us--btn:hover {
     }
 
     /* SECTION 1 */
+    .our-mission--wrapper{
+        padding: 30px 25px !important;
+    }
     .our-mission-description {
         border: none !important;
         padding: 30px 40px !important;
@@ -966,6 +979,9 @@ a.join-us--btn:hover {
         background: none !important;
         border: none !important;
 
+    }
+    .elementor-8813 .elementor-element.elementor-element-e2fbee9{
+        margin-top: -50%;
     }
     .elementor-8813 .elementor-element.elementor-element-2425f02{
         max-width: 400px !important;
@@ -983,6 +999,12 @@ a.join-us--btn:hover {
     /* SECTION 4 */
     .section-title-mission{
         font-size: 50px !important;
+    }
+    /* SECTION 5 */
+    .founder-main-card {
+        width: 100% !important;
+        padding: 4% 2%;
+        margin-top: 20px;
     }
 }
 @media only screen and (max-width: 428px) {
