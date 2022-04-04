@@ -7,7 +7,10 @@ html {
     scroll-behavior: smooth !important;
 
 }
-
+.clear-both{
+    clear: both;
+    box-sizing: border-box;
+}
 .text-1 {
     color: #77a1d3;
 }
@@ -276,13 +279,15 @@ body {
 #our--mission_text {
     margin-top: 10px;
 }
-
+.margin-top-mission {
+    padding-top: 5%;
+}
 .content-left,
 .content-right {
     float: left;
     width: 50%;
     box-sizing: border-box;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .content-left {
@@ -335,7 +340,10 @@ body {
     opacity: 1;
 }
 
-
+.section-title-mission {
+    font-size: 70px !important;
+    color: white !important;
+}
 
 .description__project--app {
     font-size: 20px;
@@ -691,12 +699,6 @@ a.join-us--btn:hover {
 }
 
 
-.margin-top-mission {
-    margin-top: 5%;
-}
-
-
-
 @media only screen and (max-width: 512px) {
     #our--mission_text {
         font-size: 15px;
@@ -711,7 +713,7 @@ a.join-us--btn:hover {
 
 .our-mission-description {
     border: 2px solid white;
-    padding: 40px 40px;
+    padding: 5px 40px;
     transition: all ease-in-out .1;
     border-radius: 15px;
 }
@@ -785,13 +787,13 @@ a.join-us--btn:hover {
     padding: 4% 2%;
 }
 
-.card-body {
+/* .card-body {
     padding-bottom: 20px;
-}
+} */
 
-.card-inner {
+/* .card-inner {
     margin-top: 4% !important;
-}
+} */
 
 .card-body .vip-m-title {
     font-size: 20px !important;
@@ -893,16 +895,26 @@ a.join-us--btn:hover {
 
 /* Responsive All Screen */
 /* 1280px */
-@media only screen and (max-width: 1280px ) {
-
+@media only screen and (min-width: 1280px ) {
+    .description__project--app{
+        font-size: 20px !important;
+    }
 }
 
 /* 1024 */
 @media only screen and (max-width: 1024px) {
+    .section-title-mission {
+        font-size: 55px !important;
+    }
     .our-mission-section {
         margin-top: 0%;
     }
-
+    .our-mission-description{
+        padding: 20px 10px !important;
+    }
+    .description__project--app{
+        font-size: 17px !important;
+    }
     .card-inner {
         display: grid;
     }
@@ -969,7 +981,7 @@ a.join-us--btn:hover {
         box-sizing: border-box;
     }
     /* SECTION 4 */
-    .h1-title-team{
+    .section-title-mission{
         font-size: 50px !important;
     }
 }

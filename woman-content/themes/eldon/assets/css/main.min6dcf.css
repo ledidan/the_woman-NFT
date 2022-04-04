@@ -1352,7 +1352,7 @@ h1 {
     color: var(--qodef-main-color);
     font-size: 60px;
     line-height: 1.0167em;
-    /* margin: 25px 0; */
+    margin: 25px 0;
     -ms-word-wrap: break-word;
     word-wrap: break-word
 }
