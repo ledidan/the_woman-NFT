@@ -2,7 +2,9 @@
     font-family: OutRun;
     src: url("https://jackphilippi.com.au/cdn/fonts/outrun_future.otf") format("opentype");
 }
-
+p {
+    text-align: justify !important;
+}
 html {
     scroll-behavior: smooth !important;
 
@@ -768,7 +770,7 @@ a.join-us--btn:hover {
 }
 
 .meet-team-desc {
-    padding: 0% 10%;
+    padding: 10%;
 }
 
 .our-team-desc {
@@ -787,6 +789,8 @@ a.join-us--btn:hover {
     display: inline-block;
     margin-left: 4% !important;
 }
+
+
 
 .founder-main-card,
 .founder-content-card {
@@ -809,9 +813,11 @@ a.join-us--btn:hover {
     margin-top: 4% !important;
 }
 
-.card-body .vip-m-title {
+.vip-m-title {
     font-size: 20px !important;
     font-weight: 300;
+    text-align: center !important;
+    padding-bottom: 5%;
 }
 
 .card-social .elementor-grid-item {
@@ -987,9 +993,9 @@ a.join-us--btn:hover {
         font-size: 15px;
     }
     /* SECTION 3 */
-    .elementor-8813 .elementor-element.elementor-element-ce28123.padding-section{
+    /* .elementor-8813 .elementor-element.elementor-element-ce28123 {
         padding: 190px 0 20px 0 !important;
-    }
+    } */
     .elementor-8813 .elementor-element.elementor-element-3c13d38>.elementor-element-populated{
         padding: 0 !important;
     }
@@ -1080,7 +1086,7 @@ a.join-us--btn:hover {
     }
     /* SECTION 5 */
     .meet-team-desc {
-        padding: 0 !important;
+        padding: 10% !important;
     }
     .founder-card-story{
         width: 100% !important;
@@ -1143,11 +1149,21 @@ a.join-us--btn:hover {
     .elementor-8813 .elementor-element.elementor-element-c3836fb {
         width: 100% !important;
     }
+    .founder-main-card {
+        width: 100% !important;
+        padding: 4% 2%;
+        margin-top: 20px;
+    }
+    .founder-content-card p {
+        font-size: 15px !important;
+        font-weight: 400;
+        text-align: left !important;
+    }
 }
 
 /* MEDIA SCREEN FOR TIMELINE */
 
-@media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) {
     .founder-card-story {
         width: 100% !important;
     }
