@@ -1163,7 +1163,7 @@ a.join-us--btn:hover {
 
 /* MEDIA SCREEN FOR TIMELINE */
 
- @media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .founder-card-story {
         width: 100% !important;
     }
