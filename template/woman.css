@@ -960,6 +960,79 @@ a.join-us--btn:hover {
        }
 }
 
+/* 428 */
+@media only screen and (max-width: 428px) and (min-height: 427px) {
+    .section-title-mission {
+        font-size: 40px !important;
+    }
+    /* HERO HEADER */
+    .btn-hero-discord {
+        margin-top: 100px !important;
+    }
+    .btn-hero-twitter {
+        margin-top: 50px !important;
+    }
+    /* SECTION 1 */
+    .elementor-8813 .elementor-element.elementor-element-9f7c7ed .elementor-spacer-inner{
+        height: 100% !important;
+    }
+    /* SECTION 2 */
+    .our-mission-description {
+        border: none !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-2425f02{
+        max-width: 400px !important;
+    }
+    .description__project--app {
+        font-size: 15px;
+    }
+    /* SECTION 3 */
+    .elementor-8813 .elementor-element.elementor-element-ce28123 {
+        padding: 190px 0 20px 0 !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-3c13d38>.elementor-element-populated{
+        padding: 0 !important;
+    }
+    .project__inner .content-left {
+        width: 100%;
+    }
+    /* Section 4 */
+    .elementor-8813 .elementor-element.elementor-element-4d4af1c{
+        padding: 0 !important;
+    }
+    .founder-card-story{
+        width: 100% !important;
+    }
+    .founder-main-card{
+        width: 100%;
+        padding: 0 !important;
+    }
+    .card-inner {
+        margin-bottom: 10% !important;
+    }
+    .our-team-desc {
+        text-align: left !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-31564a6 {
+        margin-bottom: 0 !important;
+    }
+
+    /* SECTION 4 */
+    .elementor-8813 .elementor-element.elementor-element-3025bb1>.elementor-widget-container{
+        padding: 0 !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-41622fd {
+        padding: 0 5% !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-bd68f1a {
+        width: 100% !important;
+        padding-bottom: 10%;
+    }
+    .elementor-8813 .elementor-element.elementor-element-c3836fb {
+        width: 100% !important;
+    }
+}
+
 
 /* 414px */
 
@@ -1022,29 +1095,25 @@ a.join-us--btn:hover {
         font-weight: 400;
         text-align: left !important;
     }
+    .elementor-8813 .elementor-element.elementor-element-31564a6 {
+        margin-bottom: 0 !important;
+    }
+
+    /* SECTION 4 */
+    .elementor-8813 .elementor-element.elementor-element-3025bb1>.elementor-widget-container{
+        padding: 0 !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-41622fd {
+        padding: 0 5% !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-bd68f1a {
+        width: 100% !important;
+        padding-bottom: 10%;
+    }
+    .elementor-8813 .elementor-element.elementor-element-c3836fb {
+        width: 100% !important;
+    }
 }
-@media only screen and (max-width: 428px) {
-    /* HERO HEADER */
-    .btn-hero-discord {
-        margin-top: 100px !important;
-    }
-    .btn-hero-twitter {
-        margin-top: 50px !important;
-    }
-
-    /* SECTION 1 */
-    .our-mission-description {
-        border: none !important;
-    }
-    .elementor-8813 .elementor-element.elementor-element-2425f02{
-        max-width: 400px !important;
-    }
-    .description__project--app {
-        font-size: 15px;
-    }
-
-}
-
 
 /* 375 */
 @media only screen and (max-width: 375px) and (min-width: 374px) {
