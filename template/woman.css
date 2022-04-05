@@ -961,7 +961,7 @@ a.join-us--btn:hover {
 }
 
 /* 428 */
-@media only screen and (max-width: 428px) and (min-height: 427px) {
+@media only screen and (max-width: 428px) {
     .section-title-mission {
         font-size: 40px !important;
     }
@@ -973,9 +973,9 @@ a.join-us--btn:hover {
         margin-top: 50px !important;
     }
     /* SECTION 1 */
-    .elementor-8813 .elementor-element.elementor-element-9f7c7ed .elementor-spacer-inner{
+    /* .elementor-8813 .elementor-element.elementor-element-9f7c7ed .elementor-spacer-inner{
         height: 100% !important;
-    }
+    } */
     /* SECTION 2 */
     .our-mission-description {
         border: none !important;
@@ -987,7 +987,7 @@ a.join-us--btn:hover {
         font-size: 15px;
     }
     /* SECTION 3 */
-    .elementor-8813 .elementor-element.elementor-element-ce28123 {
+    .elementor-8813 .elementor-element.elementor-element-ce28123.padding-section{
         padding: 190px 0 20px 0 !important;
     }
     .elementor-8813 .elementor-element.elementor-element-3c13d38>.elementor-element-populated{
