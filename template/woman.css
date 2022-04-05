@@ -972,7 +972,7 @@ a.join-us--btn:hover {
 }
 
 /* 428 */
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 428px) and (min-width: 427px) {
 
     .section-title-mission {
         font-size: 40px !important;
@@ -989,6 +989,9 @@ a.join-us--btn:hover {
         height: 100% !important;
     } */
     /* SECTION 2 */
+    .elementor-8813 .elementor-element.elementor-element-3c13d38.elementor-column {
+        margin-top: 350px;
+    }
     .our-mission-description {
         border: none !important;
     }
@@ -1042,6 +1045,13 @@ a.join-us--btn:hover {
     }
     .elementor-8813 .elementor-element.elementor-element-c3836fb {
         width: 100% !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-b60986e {
+        margin-top: 0 !important;
+    }
+    /* SECTION 5 */
+    .panel-group .panel {
+        margin-bottom: 40px !important;
     }
 }
 
@@ -1195,7 +1205,9 @@ a.join-us--btn:hover {
     rs-group#slider-36-slide-60-layer-10{
         top: 110px !important;
     }
-
+    .ob-is-breaking-bad.elementor-section.elementor-top-section.elementor-element.elementor-element-4bb425f.elementor-section-full_width.elementor-section-height-min-height.elementor-section-stretched.elementor-section-height-default.elementor-section-items-middle.qodef-elementor-content-no{
+        width: 100% !important;
+    }
 }
 
 /* MEDIA SCREEN FOR TIMELINE */
