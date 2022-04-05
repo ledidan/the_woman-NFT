@@ -926,6 +926,7 @@ a.join-us--btn:hover {
 
 /* 1024 */
 @media only screen and (max-width: 1024px) and (min-width: 971px) {
+
     .section-title-mission {
         font-size: 55px !important;
     }
@@ -971,6 +972,7 @@ a.join-us--btn:hover {
 
 /* 428 */
 @media only screen and (max-width: 428px) {
+
     .section-title-mission {
         font-size: 40px !important;
     }
@@ -1046,6 +1048,7 @@ a.join-us--btn:hover {
 /* 414px */
 
 @media only screen and (max-width: 414px) {
+
     /* HERO HEADER */
     .btn-hero-discord {
         margin-top: 100px !important;
@@ -1126,6 +1129,7 @@ a.join-us--btn:hover {
 
 /* 375 */
 @media only screen and (max-width: 375px) and (min-width: 374px) {
+
     /* MAIN TITLE */
     .section-title-mission{
     }
@@ -1235,6 +1239,11 @@ a.join-us--btn:hover {
         left: auto;
         right: 122%;
         text-align: right;
+    }
+    .elementor-8813 .elementor-element.elementor-element-e3e6e40 {
+            margin-top: 10px;
+    margin-bottom: 0;
+     padding: 190px 0 80px 0;
     }
 }
 
