@@ -926,6 +926,7 @@ a.join-us--btn:hover {
 
 /* 1024 */
 @media only screen and (max-width: 1024px) and (min-width: 971px) {
+
     .section-title-mission {
         font-size: 55px !important;
     }
@@ -1238,6 +1239,11 @@ a.join-us--btn:hover {
         left: auto;
         right: 122%;
         text-align: right;
+    }
+    .elementor-8813 .elementor-element.elementor-element-e3e6e40 {
+            margin-top: 10px;
+    margin-bottom: 0;
+     padding: 190px 0 80px 0;
     }
 }
 
