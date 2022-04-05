@@ -1127,10 +1127,10 @@ a.join-us--btn:hover {
         width: 100% !important;
     }
     rs-column#slider-36-slide-60-layer-9 {
-        top: 150px !important;
+        top: 130px !important;
     }
     rs-group#slider-36-slide-60-layer-10{
-        top: 140px !important;
+        top: 120px !important;
     }
 }
 
@@ -1139,6 +1139,12 @@ a.join-us--btn:hover {
 
     /* MAIN TITLE */
     .section-title-mission{
+    }
+    .btn-hero-discord {
+        margin-top: 92px !important;
+    }
+    .btn-hero-twitter {
+        margin-top: 44px !important;
     }
     /* Section 1 */
     p.description__project--app{
@@ -1184,10 +1190,10 @@ a.join-us--btn:hover {
         font-size: 10px !important;
     }
     rs-column#slider-36-slide-60-layer-9 {
-        top: 150px !important;
+        top: 120px !important;
     }
     rs-group#slider-36-slide-60-layer-10{
-        top: 140px !important;
+        top: 110px !important;
     }
 
 }
