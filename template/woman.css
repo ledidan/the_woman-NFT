@@ -971,6 +971,7 @@ a.join-us--btn:hover {
 
 /* 428 */
 @media only screen and (max-width: 428px) {
+
     .section-title-mission {
         font-size: 40px !important;
     }
@@ -1046,6 +1047,7 @@ a.join-us--btn:hover {
 /* 414px */
 
 @media only screen and (max-width: 414px) {
+
     /* HERO HEADER */
     .btn-hero-discord {
         margin-top: 100px !important;
@@ -1126,6 +1128,7 @@ a.join-us--btn:hover {
 
 /* 375 */
 @media only screen and (max-width: 375px) and (min-width: 374px) {
+
     /* MAIN TITLE */
     .section-title-mission{
     }
