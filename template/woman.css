@@ -790,7 +790,9 @@ a.join-us--btn:hover {
     margin-left: 4% !important;
 }
 
-
+.meet-the-team-sub {
+    padding-top: 3%;
+}
 
 .founder-main-card,
 .founder-content-card {
@@ -876,6 +878,7 @@ a.join-us--btn:hover {
     background-position: -1px -1px, -1px -1px;
     transform: rotateX(85deg);
     animation: moveUp 1s infinite linear;
+    background-color: rgba(255,255,255,0.1) ;
 }
 
 @keyframes moveUp {
