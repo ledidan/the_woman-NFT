@@ -329,6 +329,7 @@ body {
 }
 
 /* css for my tutorial channel link */
+
 #tube {
     position: absolute;
     bottom: 1vw;
@@ -1125,6 +1126,12 @@ a.join-us--btn:hover {
     .elementor-8813 .elementor-element.elementor-element-c3836fb {
         width: 100% !important;
     }
+    rs-column#slider-36-slide-60-layer-9 {
+        top: 150px !important;
+    }
+    rs-group#slider-36-slide-60-layer-10{
+        top: 140px !important;
+    }
 }
 
 /* 375 */
@@ -1166,6 +1173,23 @@ a.join-us--btn:hover {
         font-weight: 400;
         text-align: left !important;
     }
+    .meet-the-team-sub .qodef-m-title {
+        font-size: 14px !important;
+    }
+    /* SECTION 5 */
+    .panel-group .panel-heading a {
+        font-size: 15px !important;
+    }
+    .pnael-group .panel-body{
+        font-size: 10px !important;
+    }
+    rs-column#slider-36-slide-60-layer-9 {
+        top: 150px !important;
+    }
+    rs-group#slider-36-slide-60-layer-10{
+        top: 140px !important;
+    }
+
 }
 
 /* MEDIA SCREEN FOR TIMELINE */
