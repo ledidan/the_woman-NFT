@@ -304,7 +304,7 @@ body {
 }
 
 .description__project--app {
-    line-height: 45px;
+    line-height: 35px;
 }
 
 .title__project-app {
@@ -1001,6 +1001,13 @@ a.join-us--btn:hover {
     .description__project--app {
         font-size: 15px;
     }
+    .our-mission-description {
+        padding: 0 30px !important;
+    }
+    .our-mission-description:hover {
+        background: none !important;
+        border: none !important;
+    }
     /* SECTION 3 */
     /* .elementor-8813 .elementor-element.elementor-element-ce28123 {
         padding: 190px 0 20px 0 !important;
@@ -1079,7 +1086,6 @@ a.join-us--btn:hover {
     .our-mission-description:hover {
         background: none !important;
         border: none !important;
-
     }
     .elementor-8813 .elementor-element.elementor-element-e2fbee9{
         margin-top: -50%;
