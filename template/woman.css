@@ -960,6 +960,7 @@ a.join-us--btn:hover {
        }
 }
 
+
 /* 414px */
 
 @media only screen and (max-width: 414px) {
@@ -968,7 +969,7 @@ a.join-us--btn:hover {
         margin-top: 100px !important;
     }
     .btn-hero-twitter {
-        margin-top: 50px !important;
+        margin-top: 48px !important;
     }
 
     /* SECTION 1 */
@@ -1002,13 +1003,24 @@ a.join-us--btn:hover {
     }
     /* SECTION 4 */
     .section-title-mission{
-        font-size: 50px !important;
+        font-size: 40px !important;
     }
     /* SECTION 5 */
+    .meet-team-desc {
+        padding: 0 !important;
+    }
+    .founder-card-story{
+        width: 100% !important;
+    }
     .founder-main-card {
         width: 100% !important;
         padding: 4% 2%;
         margin-top: 20px;
+    }
+    .founder-content-card p {
+        font-size: 15px !important;
+        font-weight: 400;
+        text-align: left !important;
     }
 }
 @media only screen and (max-width: 428px) {
@@ -1034,7 +1046,45 @@ a.join-us--btn:hover {
 }
 
 
-@media  screen and (min-width: 768px) {
+/* 375 */
+@media only screen and (max-width: 375px) and (min-width: 374px) {
+    /* MAIN TITLE */
+    .section-title-mission{
+    }
+    /* Section 1 */
+    p.description__project--app{
+        font-size: 14px !important;
+    }
+    /* Section 2 */
+    .elementor-8813 .elementor-element.elementor-element-31564a6 {
+        margin-bottom: 0 !important;
+    }
+
+    /* SECTION 4 */
+    .elementor-8813 .elementor-element.elementor-element-3025bb1>.elementor-widget-container{
+        padding: 0 !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-41622fd {
+        padding: 0 5% !important;
+    }
+    .elementor-8813 .elementor-element.elementor-element-bd68f1a {
+        width: 100% !important;
+        padding-bottom: 10%;
+    }
+    .elementor-8813 .elementor-element.elementor-element-c3836fb {
+        width: 100% !important;
+    }
+}
+
+/* MEDIA SCREEN FOR TIMELINE */
+
+@media screen and (min-width: 768px) {
+    .founder-card-story {
+        width: 100% !important;
+    }
+    .founder-main-card {
+        width: 100% !important;
+    }
     .cd-timeline-content h2 {
         font-size: 20px;
         font-size: 1.25rem;
@@ -1098,4 +1148,8 @@ a.join-us--btn:hover {
         right: 122%;
         text-align: right;
     }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1281 ) {
+
 }
