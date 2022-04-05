@@ -2,9 +2,6 @@
     font-family: OutRun;
     src: url("https://jackphilippi.com.au/cdn/fonts/outrun_future.otf") format("opentype");
 }
-p {
-    text-align: justify !important;
-}
 html {
     scroll-behavior: smooth !important;
 
@@ -972,7 +969,10 @@ a.join-us--btn:hover {
 }
 
 /* 428 */
-@media only screen and (max-width: 428px) and (min-width: 427px) {
+@media only screen and (max-width: 429px) and (min-width: 428px) {
+    p {
+        text-align: left;
+    }
 
     .section-title-mission {
         font-size: 40px !important;
@@ -988,6 +988,9 @@ a.join-us--btn:hover {
     /* .elementor-8813 .elementor-element.elementor-element-9f7c7ed .elementor-spacer-inner{
         height: 100% !important;
     } */
+    .elementor-8813 .elementor-element.elementor-element-9f7c7ed .elementor-spacer-inner{
+        height: fit-content !important;
+    }
     /* SECTION 2 */
     .elementor-8813 .elementor-element.elementor-element-3c13d38.elementor-column {
         margin-top: 350px;
@@ -999,7 +1002,7 @@ a.join-us--btn:hover {
         max-width: 400px !important;
     }
     .description__project--app {
-        font-size: 15px;
+        font-size: 18px;
     }
     .our-mission-description {
         padding: 0 30px !important;
@@ -1064,9 +1067,11 @@ a.join-us--btn:hover {
 
 
 /* 414px */
-
-@media only screen and (max-width: 414px) {
-
+/*  */
+@media only screen and (min-width: 414px) and (max-width: 415px) {
+p {
+text-align: left;
+}
     /* HERO HEADER */
     .btn-hero-discord {
         margin-top: 100px !important;
@@ -1088,7 +1093,7 @@ a.join-us--btn:hover {
         border: none !important;
     }
     .elementor-8813 .elementor-element.elementor-element-e2fbee9{
-        margin-top: -50%;
+        margin-top: -40%;
     }
     .elementor-8813 .elementor-element.elementor-element-2425f02{
         max-width: 400px !important;
@@ -1151,10 +1156,92 @@ a.join-us--btn:hover {
 }
 
 /* 375 */
-@media only screen and (max-width: 375px) and (min-width: 374px) {
+@media only screen and (min-width: 375px) and (max-width: 376px) {
+p {
+    text-align: left;
+}
+.btn-hero-discord {
+    margin-top: 97px !important;
+}
+.btn-hero-twitter {
+    margin-top: 48px !important;
+}
 
-    /* MAIN TITLE */
-    .section-title-mission{
+/* SECTION 1 */
+.our-mission--wrapper{
+    padding: 30px 25px !important;
+}
+.our-mission-description {
+    border: none !important;
+    padding: 30px 40px !important;
+}
+.our-mission-description:hover {
+    background: none !important;
+    border: none !important;
+}
+.elementor-8813 .elementor-element.elementor-element-e2fbee9{
+    margin-top: -50%;
+}
+.elementor-8813 .elementor-element.elementor-element-2425f02{
+    max-width: 400px !important;
+}
+.description__project--app {
+    font-size: 18px;
+}
+/* SECTION 3 */
+.project__app-container .content-left,
+.project__app-container .content-right {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* SECTION 4 */
+.section-title-mission{
+    font-size: 40px !important;
+}
+/* SECTION 5 */
+.meet-team-desc {
+    padding: 10% !important;
+}
+.founder-card-story{
+    width: 100% !important;
+}
+.founder-main-card {
+    width: 100% !important;
+    padding: 4% 2%;
+    margin-top: 20px;
+}
+.founder-content-card p {
+    font-size: 15px !important;
+    font-weight: 400;
+    text-align: left !important;
+}
+.elementor-8813 .elementor-element.elementor-element-31564a6 {
+    margin-bottom: 0 !important;
+}
+
+/* SECTION 4 */
+.elementor-8813 .elementor-element.elementor-element-3025bb1>.elementor-widget-container{
+    padding: 0 !important;
+}
+.elementor-8813 .elementor-element.elementor-element-41622fd {
+    padding: 0 5% !important;
+}
+.elementor-8813 .elementor-element.elementor-element-bd68f1a {
+    width: 100% !important;
+    padding-bottom: 10%;
+}
+.elementor-8813 .elementor-element.elementor-element-c3836fb {
+    width: 100% !important;
+}
+rs-column#slider-36-slide-60-layer-9 {
+    top: 130px !important;
+}
+rs-group#slider-36-slide-60-layer-10{
+    top: 120px !important;
+}
+
+    /* .section-title-mission{
     }
     .btn-hero-discord {
         margin-top: 92px !important;
@@ -1162,16 +1249,16 @@ a.join-us--btn:hover {
     .btn-hero-twitter {
         margin-top: 44px !important;
     }
-    /* Section 1 */
+
     p.description__project--app{
         font-size: 14px !important;
     }
-    /* Section 2 */
+
     .elementor-8813 .elementor-element.elementor-element-31564a6 {
         margin-bottom: 0 !important;
     }
 
-    /* SECTION 4 */
+
     .elementor-8813 .elementor-element.elementor-element-3025bb1>.elementor-widget-container{
         padding: 0 !important;
     }
@@ -1198,7 +1285,7 @@ a.join-us--btn:hover {
     .meet-the-team-sub .qodef-m-title {
         font-size: 14px !important;
     }
-    /* SECTION 5 */
+
     .panel-group .panel-heading a {
         font-size: 15px !important;
     }
@@ -1213,7 +1300,8 @@ a.join-us--btn:hover {
     }
     .ob-is-breaking-bad.elementor-section.elementor-top-section.elementor-element.elementor-element-4bb425f.elementor-section-full_width.elementor-section-height-min-height.elementor-section-stretched.elementor-section-height-default.elementor-section-items-middle.qodef-elementor-content-no{
         width: 100% !important;
-    }
+    } */
+
 }
 
 /* MEDIA SCREEN FOR TIMELINE */
@@ -1295,6 +1383,9 @@ a.join-us--btn:hover {
     }
 }
 
-@media only screen and (min-width: 1280px) and (max-width: 1281 ) {
-
+@media only screen and (min-width: 1200px){
+    /* desktop */
+    p {
+        text-align: justify !important;
+    }
 }
