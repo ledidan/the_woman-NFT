@@ -286,7 +286,7 @@ body {
     float: left;
     width: 50%;
     box-sizing: border-box;
-    /* margin-top: 50px; */
+    margin-top: 50px;
 }
 
 .content-left {
@@ -972,6 +972,9 @@ a.join-us--btn:hover {
 
 /* 428 */
 @media only screen and (max-width: 429px) and (min-width: 428px) {
+    .elementor-8813 .elementor-element.elementor-element-7bec981.ob-is-breaking-bad>.elementor-container{
+        padding-top: 30px ;
+    }
     p {
         text-align: left;
     }
@@ -1162,6 +1165,12 @@ text-align: left;
 p {
     text-align: left;
 }
+/* .elementor-8813 .elementor-element.elementor-element-7bec981 {
+    margin-top: 0 !important;
+} */
+.elementor-8813 .elementor-element.elementor-element-7bec981.ob-is-breaking-bad>.elementor-container{
+    padding-top: 40px ;
+}
 .btn-hero-discord {
     margin-top: 97px !important;
 }
@@ -1191,6 +1200,9 @@ p {
     font-size: 18px;
 }
 /* SECTION 3 */
+.our-mission-section {
+    margin-left: -10px;
+}
 .project__app-container .content-left,
 .project__app-container .content-right {
     float: left;
