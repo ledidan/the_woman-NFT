@@ -812,9 +812,11 @@ a.join-us--btn:hover {
 .card-inner {
     margin-top: 4% !important;
 }
-
+.card-body .qodef-m-title{
+    margin: 5px 0 0 !important;
+}
 .vip-m-title {
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: 300;
     text-align: center !important;
     padding-bottom: 2%;
