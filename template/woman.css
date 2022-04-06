@@ -1082,10 +1082,10 @@ text-align: left;
 }
     /* HERO HEADER */
     .btn-hero-discord {
-        margin-top: 75px !important;
+        margin-top: 94px !important;
     }
     .btn-hero-twitter {
-        margin-top: 23px !important;
+        margin-top: 41px !important;
     }
 
     /* SECTION 1 */
@@ -1165,7 +1165,10 @@ text-align: left;
 
 /* 375 */
 @media only screen and (min-width: 375px) and (max-width: 376px) {
-p {
+    rs-layer#slider-41-slide-77-layer-7.rs-pxl-1 {
+        margin-top: 100px !important;
+    }
+    p {
     text-align: left;
 }
 /* .elementor-8813 .elementor-element.elementor-element-7bec981 {
@@ -1175,10 +1178,10 @@ p {
     padding-top: 40px ;
 }
 .btn-hero-discord {
-    margin-top: 65px !important;
+    margin-top: 90px !important;
 }
 .btn-hero-twitter {
-    margin-top: 18px !important;
+    margin-top: 42px !important;
 }
 
 /* SECTION 1 */
