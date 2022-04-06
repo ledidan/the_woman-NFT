@@ -987,7 +987,7 @@ a.join-us--btn:hover {
     }
     /* HERO HEADER */
     .btn-hero-discord {
-        margin-top: 100px !important;
+        margin-top: 105px !important;
     }
     .btn-hero-twitter {
         margin-top: 50px !important;
@@ -1082,10 +1082,10 @@ text-align: left;
 }
     /* HERO HEADER */
     .btn-hero-discord {
-        margin-top: 100px !important;
+        margin-top: 75px !important;
     }
     .btn-hero-twitter {
-        margin-top: 48px !important;
+        margin-top: 23px !important;
     }
 
     /* SECTION 1 */
@@ -1175,10 +1175,10 @@ p {
     padding-top: 40px ;
 }
 .btn-hero-discord {
-    margin-top: 97px !important;
+    margin-top: 65px !important;
 }
 .btn-hero-twitter {
-    margin-top: 48px !important;
+    margin-top: 18px !important;
 }
 
 /* SECTION 1 */
