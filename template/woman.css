@@ -1048,7 +1048,7 @@ a.join-us--btn:hover {
         padding: 0 !important;
     }
     .founder-content-card p {
-        font-size: 18px !important;
+        font-size: 17px !important;
     }
     .card-inner {
         margin-bottom: 10% !important;
@@ -1174,6 +1174,9 @@ text-align: left;
         padding: 4% 2%;
         margin-top: 20px;
     }
+    .founder-content-card {
+        padding: 4% 5% !important;
+    }
     .founder-content-card p {
         font-size: 18px !important;
         font-weight: 400;
@@ -1267,7 +1270,7 @@ text-align: left;
     max-width: 400px !important;
 }
 .description__project--app {
-    font-size: 18px;
+    font-size: 17px;
 }
 /* SECTION 3 */
 .our-mission-section {
@@ -1293,7 +1296,7 @@ text-align: left;
     padding: 0 5% !important;
 }
 .meet-team-desc {
-    padding: 4% !important;
+    padding: 8% !important;
 }
 .founder-card-story{
     width: 100% !important;
@@ -1309,7 +1312,7 @@ text-align: left;
     text-align: left !important;
 }
 .founder-content-card {
-    padding: 4% 4% !important;
+    padding: 4% 5% !important;
 }
 .elementor-8813 .elementor-element.elementor-element-31564a6 {
     margin-bottom: 0 !important;
