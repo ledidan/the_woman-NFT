@@ -1035,6 +1035,10 @@ a.join-us--btn:hover {
     /* .elementor-8813 .elementor-element.elementor-element-9f7c7ed .elementor-spacer-inner{
         height: 100% !important;
     } */
+    .elementor-8813 .elementor-element.elementor-element-95ccf45 {
+        padding: 0px 30px 0 30px !important;
+    }
+
     .elementor-8813 .elementor-element.elementor-element-9f7c7ed .elementor-spacer-inner {
         height: fit-content !important;
     }
@@ -1197,6 +1201,11 @@ a.join-us--btn:hover {
         margin-top: 41px !important;
     }
 
+    /* Video Intro */
+    .elementor-8813 .elementor-element.elementor-element-95ccf45 {
+        padding: 0px 30px 0 30px !important;
+    }
+
     /* SECTION 1 */
     .our-mission--wrapper {
         padding: 30px 25px !important;
@@ -1352,6 +1361,10 @@ a.join-us--btn:hover {
 
     .btn-hero-twitter {
         margin-top: 44px !important;
+    }
+
+    .elementor-8813 .elementor-element.elementor-element-95ccf45 {
+        padding: 0px 30px 0 30px !important;
     }
 
     /* SECTION 1 */
