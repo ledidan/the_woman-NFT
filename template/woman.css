@@ -728,7 +728,7 @@ a.join-us--btn:hover {
 }
 
 .our-mission-description {
-    border: 2px solid white;
+    border: 2px solid #79cbca;
     padding: 5px 40px;
     transition: all ease-in-out .1;
     border-radius: 15px;
@@ -778,8 +778,16 @@ a.join-us--btn:hover {
     /* border-radius: 10% !important; */
 }
 
+.team-gap-bottom {
+    margin-bottom: 3rem !important;
+}
+
 .meet-team-desc {
     padding: 10%;
+}
+
+.elementor-social-icon-globe {
+    background-color: white !important;
 }
 
 .our-team-desc {
@@ -970,7 +978,7 @@ a.join-us--btn:hover {
 }
 
 /* 768px */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 810px) {
     .elementor-8813 .elementor-element.elementor-element-2425f02 {
         width: 650px !important;
     }
@@ -1328,7 +1336,7 @@ a.join-us--btn:hover {
     }
 
     .btn-hero-twitter {
-        margin-top: 43px !important;
+        margin-top: 44px !important;
     }
 
     /* SECTION 1 */
