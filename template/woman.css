@@ -350,7 +350,9 @@ body {
 .margin-top-mission {
   padding-top: 5%;
 }
-
+.elementor-social-icon-facebook{
+  background-color: white !important;
+}
 .content-left,
 .content-right {
   float: left;
